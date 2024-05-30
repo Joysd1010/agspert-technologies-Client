@@ -4,7 +4,7 @@ import NavBar from "../Pages/Nav/NavBar";
 
 const Layout = () => {
   return (
-    <div className="py-3">
+    <div className=" md:px-20">
       <NavBar/>
       <Outlet />
     </div>
